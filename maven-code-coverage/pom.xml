@@ -60,10 +60,8 @@
                         <goals>
                             <goal>check</goal>
                         </goals>
-                             <configuration>
-					<outputDirectory>target/jacoco-report</outputDirectory>
-				</configuration>
-                        <!--configuration>
+                            
+                        <configuration>
                             <rules>
                                 <rule>
                                     <element>PACKAGE</element>
@@ -76,7 +74,10 @@
                                     </limits>
                                 </rule>
                             </rules>
-                        </configuration-->
+                        </configuration>
+			     <configuration>
+					<outputDirectory>target/jacoco-report</outputDirectory>
+				</configuration>
                     </execution>
                 </executions>
             </plugin>
