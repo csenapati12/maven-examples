@@ -70,7 +70,7 @@
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
                                             <minimum>0.9</minimum>
-						<outputDirectory>target/jacoco-report</outputDirectory>
+						
                                         </limit>
                                     </limits>
                                 </rule>
